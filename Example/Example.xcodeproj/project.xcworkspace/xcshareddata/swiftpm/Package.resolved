@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "wwacknowledgementviewcontroller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWAcknowledgementViewController",
+      "state" : {
+        "revision" : "88d1f3f87302ea8183ba9338e3a2d5c3ca3a58a5",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "wwjavascriptcontext",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWJavaScriptContext",
+      "state" : {
+        "revision" : "605cb0a6f03fd007661ecd2586328a23c6665ab1",
+        "version" : "1.0.4"
+      }
+    },
+    {
+      "identity" : "wwjavascriptcontext_markdown",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWJavaScriptContext_Markdown",
+      "state" : {
+        "revision" : "9b8ac03a2da63841a242777f04e40eab31988b7e",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
