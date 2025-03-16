@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DD6F8DF2D86C95B00DA7CD9 /* WWAcknowledgementViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD6F8DE2D86C95B00DA7CD9 /* WWAcknowledgementViewController */; };
+		3DD6F8E22D86C9F600DA7CD9 /* WWAcknowledgementViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 3DD6F8E12D86C9F600DA7CD9 /* WWAcknowledgementViewController */; };
 		817567FC2CA2C2B400B24577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817567FB2CA2C2B400B24577 /* AppDelegate.swift */; };
 		817568002CA2C2B400B24577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817567FF2CA2C2B400B24577 /* ViewController.swift */; };
 		817568032CA2C2B400B24577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817568012CA2C2B400B24577 /* Main.storyboard */; };
 		817568052CA2C2B500B24577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817568042CA2C2B500B24577 /* Assets.xcassets */; };
 		817568082CA2C2B500B24577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817568062CA2C2B500B24577 /* LaunchScreen.storyboard */; };
 		81BA136C2D6C4A90006FBAA1 /* WWAcknowledgementViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 81BA136B2D6C4A90006FBAA1 /* WWAcknowledgementViewController */; };
-		81BA136F2D6C4BD4006FBAA1 /* WWAcknowledgementViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 81BA136E2D6C4BD4006FBAA1 /* WWAcknowledgementViewController */; };
 		81D02C502D6C187500F9EF07 /* WWAcknowledgementViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 81D02C4F2D6C187500F9EF07 /* WWAcknowledgementViewController */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81BA136F2D6C4BD4006FBAA1 /* WWAcknowledgementViewController in Frameworks */,
+				3DD6F8E22D86C9F600DA7CD9 /* WWAcknowledgementViewController in Frameworks */,
+				3DD6F8DF2D86C95B00DA7CD9 /* WWAcknowledgementViewController in Frameworks */,
 				81BA136C2D6C4A90006FBAA1 /* WWAcknowledgementViewController in Frameworks */,
 				81D02C502D6C187500F9EF07 /* WWAcknowledgementViewController in Frameworks */,
 			);
@@ -121,7 +123,8 @@
 			packageProductDependencies = (
 				81D02C4F2D6C187500F9EF07 /* WWAcknowledgementViewController */,
 				81BA136B2D6C4A90006FBAA1 /* WWAcknowledgementViewController */,
-				81BA136E2D6C4BD4006FBAA1 /* WWAcknowledgementViewController */,
+				3DD6F8DE2D86C95B00DA7CD9 /* WWAcknowledgementViewController */,
+				3DD6F8E12D86C9F600DA7CD9 /* WWAcknowledgementViewController */,
 			);
 			productName = Example;
 			productReference = 817567F82CA2C2B400B24577 /* Example.app */;
@@ -152,7 +155,7 @@
 			);
 			mainGroup = 817567EF2CA2C2B400B24577;
 			packageReferences = (
-				81BA136D2D6C4BD4006FBAA1 /* XCRemoteSwiftPackageReference "WWAcknowledgementViewController" */,
+				3DD6F8E02D86C9F600DA7CD9 /* XCRemoteSwiftPackageReference "WWAcknowledgementViewController" */,
 			);
 			productRefGroup = 817567F92CA2C2B400B24577 /* Products */;
 			projectDirPath = "";
@@ -417,7 +420,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		81BA136D2D6C4BD4006FBAA1 /* XCRemoteSwiftPackageReference "WWAcknowledgementViewController" */ = {
+		3DD6F8E02D86C9F600DA7CD9 /* XCRemoteSwiftPackageReference "WWAcknowledgementViewController" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/William-Weng/WWAcknowledgementViewController";
 			requirement = {
@@ -428,13 +431,17 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		81BA136B2D6C4A90006FBAA1 /* WWAcknowledgementViewController */ = {
+		3DD6F8DE2D86C95B00DA7CD9 /* WWAcknowledgementViewController */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = WWAcknowledgementViewController;
 		};
-		81BA136E2D6C4BD4006FBAA1 /* WWAcknowledgementViewController */ = {
+		3DD6F8E12D86C9F600DA7CD9 /* WWAcknowledgementViewController */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 81BA136D2D6C4BD4006FBAA1 /* XCRemoteSwiftPackageReference "WWAcknowledgementViewController" */;
+			package = 3DD6F8E02D86C9F600DA7CD9 /* XCRemoteSwiftPackageReference "WWAcknowledgementViewController" */;
+			productName = WWAcknowledgementViewController;
+		};
+		81BA136B2D6C4A90006FBAA1 /* WWAcknowledgementViewController */ = {
+			isa = XCSwiftPackageProductDependency;
 			productName = WWAcknowledgementViewController;
 		};
 		81D02C4F2D6C187500F9EF07 /* WWAcknowledgementViewController */ = {

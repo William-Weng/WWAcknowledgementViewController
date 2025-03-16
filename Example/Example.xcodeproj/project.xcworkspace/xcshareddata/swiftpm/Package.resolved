@@ -1,4 +1,5 @@
 {
+  "originHash" : "176dc78a6001e93451b33945901c0b025f82028483a35b774506db6ef3b7e5da",
   "pins" : [
     {
       "identity" : "wwacknowledgementviewcontroller",
@@ -14,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/William-Weng/WWJavaScriptContext",
       "state" : {
-        "revision" : "605cb0a6f03fd007661ecd2586328a23c6665ab1",
-        "version" : "1.0.4"
+        "revision" : "6e575659f75d2c50be7ad25ebdae6c9d8f1b164a",
+        "version" : "1.1.0"
       }
     },
     {
@@ -23,10 +24,10 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/William-Weng/WWJavaScriptContext_Markdown",
       "state" : {
-        "revision" : "9b8ac03a2da63841a242777f04e40eab31988b7e",
-        "version" : "1.1.0"
+        "revision" : "2cacfabc98d9b9c68c37ceb68e0bc08378bfb7b7",
+        "version" : "1.1.1"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
